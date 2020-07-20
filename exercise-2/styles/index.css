@@ -53,3 +53,39 @@ p {
     width: 60%;
 }
 
+/* My Code Start From Here */
+h1,h2 {
+    font-family: Georgia;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 18px;
+}
+p::first-line {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    text-transform:uppercase;
+}
+
+h2 {
+    text-transform:capitalize
+}
+
+.image {
+    background-image: url("../img/background-img.jpg");
+}
+
+.caption {
+    background-color: white;
+    color: black;
+    opacity: 0.75;
+    font-style: italic;
+}
+.caption a:hover {
+    color: purple;
+    text-decoration: none;
+}
