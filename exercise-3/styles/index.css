@@ -1,6 +1,9 @@
 body {
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    /* Add */
+    margin: 0;
+    padding: 0;
 }
 
 .navigation ul {
@@ -12,6 +15,8 @@ body {
 .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
+    /* Add */
+    padding: 10px;
 }
 
 .navigation  li.current {
@@ -26,6 +31,8 @@ body {
     background-size: cover;
     background-position: bottom center;
     width: 100%;
+    /* Add */
+    height: 350px;
 }
 
 h1 {
@@ -37,11 +44,23 @@ h1 {
     font-size: 42px;
     font-weight: 600;
     text-align: center;
+    /* Add */
+    border-style: solid;
 }
 
 #main {
     padding: 40px;
     text-align: center;
+    /* Add */
+    margin: 0 auto;
+    width: 500px;
+    height: 800px;
+    overflow: scroll;
+}
+
+/* Add */
+#main::-webkit-scrollbar {
+    display: none;
 }
 
 h2 {
@@ -56,6 +75,10 @@ h3 {
     font-size: 14px;
     line-height: 48px;
     text-align: center;
+    /* Add */
+    border-style: dashed;
+    margin: 30px 20px;
+    padding: 20px 30px;
 }
 
 p {
@@ -63,10 +86,14 @@ p {
     color: grey;
     font-size: 16px;
     line-height: 1.5em;
+    /* Add */
+    margin-top: 40px;
 }
 
 .pull-quote {
-
+    /* Add */
+    width: 400px;
+    margin: 0 auto;
 }
 
 .byline {
@@ -92,6 +119,9 @@ p {
     color: white;
     display: inline-block;
     text-decoration: none;
+    /* Add */
+    padding: 14px;
+    margin: 10px;
 }
 
 .share a:hover {
@@ -100,52 +130,7 @@ p {
     color: red;
 }
 
-/* My Code Start From Here */
-
-#banner {
-    height: 350px;
-}
-
-h1 {
-    border-style: solid;
-}
-
-h3 {
-    border-style: dashed;
-    margin: 30px 20px;
-    padding: 20px 30px;
-}
-
-.navigation li {
-    padding: 10px;
-}
-
-.share a {
-    padding: 14px;
-    margin: 10px
-}
-
-p {
-    margin-top: 40px;
-}
-
-.pull-quote {
-    width: 400px;
-    margin: 0 auto;
-}
-
-#main {
-    margin: 0 auto;
-    width: 500px;
-    height: 800px;
-    overflow: scroll;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
+/* Add */
 .global {
     visibility: hidden;
 }
