@@ -16,6 +16,11 @@ h1 {
     color: #fff;
     font-size: 2em;
     width: 100%;
+
+    /* Add */
+    font-family: Georgia;
+    text-align: center;
+    text-transform:uppercase;
 }
 
 h2 {
@@ -26,6 +31,9 @@ h2 {
     line-height: 24px;
     padding-bottom: 30px;
     text-align: left;
+    /* Add */
+    font-family: Georgia;
+    text-transform:capitalize
 }
 
 p {
@@ -33,12 +41,22 @@ p {
     line-height: 1.3em;
     text-align: left;
     width: 100%;
+    /* Add */
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+/* Add */
+p::first-line {
+    font-weight: bold;
 }
 
 .image {
     background-size: cover;
     background-position: center;
     height: 300px;
+    /* Add */
+    background-image: url("../img/background-img.jpg");
 }
 
 .caption {
@@ -51,40 +69,13 @@ p {
     position: relative;
     top: 80%;
     width: 60%;
-}
-
-/* My Code Start From Here */
-h1,h2 {
-    font-family: Georgia;
-}
-
-p {
-    font-family: Helvetica;
-    font-size: 18px;
-}
-p::first-line {
-    font-weight: bold;
-}
-
-h1 {
-    text-align: center;
-    text-transform:uppercase;
-}
-
-h2 {
-    text-transform:capitalize
-}
-
-.image {
-    background-image: url("../img/background-img.jpg");
-}
-
-.caption {
+    /* Add */
     background-color: white;
     color: black;
     opacity: 0.75;
     font-style: italic;
 }
+
 .caption a:hover {
     color: purple;
     text-decoration: none;
